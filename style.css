@@ -1,12 +1,13 @@
 /*CSS Style Sheet — Lauren*/
 
 body {
+  /*text-align: center;*/
   background-color: azure;
   color: Black;
   font-family: Helvetica;
   padding-left: 150px;
   padding-top: 100px;
-  padding-right: 100px;
+  padding-right: 150px;
   padding-bottom: 500px;
   /*border: solid purple;*/
 }
@@ -14,17 +15,24 @@ h1 {
   color: MediumOrchid;
 }
 p {
-  color: MediumOrchid;
+  color: cornflowerblue;
+  font-family: helvetica;
+}
+
+ol {
+	  font-family: helvetica;
 }
 
 div {
-  border: 0.5rem outset MediumOrchid;
+  border: 0.3rem outset MediumOrchid;
   /*outline: 0.5rem solid khaki;*/
   /*box-shadow: 0 0 0 2rem skyblue;*/
-  border-radius: 6px;
+  border-radius: 3px;
   font: bold 1rem sans-serif;
   margin: 2rem;
   padding: 1rem;
   outline-offset: 0.5rem;
   background-color: linen;
+  padding-left: 70px;
+  padding-right: 50 px;
 }
