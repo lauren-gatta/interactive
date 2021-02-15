@@ -24,6 +24,10 @@ ol {
 	  color: coral;
 }
 
+.link:hover {
+	color: chocolate;
+}
+
 div {
   border: 0.3rem outset MediumOrchid;
   /*outline: 0.5rem solid khaki;*/
