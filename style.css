@@ -24,7 +24,7 @@ ol {
 	  color: coral;
 }
 
-.link:hover {
+a:hover {
 	color: chocolate;
 }
 
