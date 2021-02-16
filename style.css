@@ -4,7 +4,7 @@ body {
   /*text-align: center;*/
   background-color: Black;
   color: azure;
-  font-family: Consolas;
+  font-family: Monaco;
   padding-left: 150px;
   padding-top: 100px;
   padding-right: 150px;
@@ -13,15 +13,27 @@ body {
 }
 h1 {
   color: MediumOrchid;
+  font-family: Monaco;
 }
+
+h2 {
+  color: MediumOrchid;
+  font-family: Monaco;
+}
+
+a {
+  color: azure;
+  font-family: Monaco;
+}
+
 p {
-  color: coral;
-  font-family: Consolas;
+  color: azure;
+  font-family: Monaco;
 }
 
 ol {
-	  font-family: Consolas;
-	  color: coral;
+	  font-family: Monaco;
+	  color: azure;
 }
 
 a:hover {
@@ -37,7 +49,7 @@ div {
   margin: 2rem;
   padding: 1rem;
   outline-offset: 0.5rem;
-  background-color: linen;
+  background-color: Black;
   padding-left: 70px;
   padding-right: 50 px;
 }
