@@ -53,3 +53,11 @@ div {
   padding-left: 70px;
   padding-right: 50 px;
 }
+
+div {
+  padding: 1rem;
+  outline-offset: 0.5rem;
+  background-color: Black;
+  padding-left: 70px;
+  padding-right: 50 px;
+}
