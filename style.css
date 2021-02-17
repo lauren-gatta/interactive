@@ -40,7 +40,7 @@ a:hover {
 	color: chocolate;
 }
 
-div {
+#box {
   border: 0.3rem outset MediumOrchid;
   /*outline: 0.5rem solid khaki;*/
   /*box-shadow: 0 0 0 2rem skyblue;*/
