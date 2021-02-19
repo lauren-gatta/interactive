@@ -60,8 +60,8 @@ a:hover {
   /*box-shadow: 0 0 0 2rem skyblue;*/
   border-radius: 3px;
   font: 1rem Didot;
-  margin: 2rem;
-  padding: 1rem;
+  margin: 1rem;
+  /*padding: 1rem;*/
   width: 70px;
   height: 50px;
   /*outline-offset: 0.5rem;*/
