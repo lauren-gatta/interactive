@@ -45,7 +45,7 @@ a:hover {
   /*outline: 0.5rem solid khaki;*/
   /*box-shadow: 0 0 0 2rem skyblue;*/
   border-radius: 3px;
-  font: bold 1rem sans-serif;
+  font: 1rem Didot;
   margin: 2rem;
   padding: 1rem;
   outline-offset: 0.5rem;
@@ -59,7 +59,7 @@ a:hover {
   /*outline: 0.5rem solid khaki;*/
   /*box-shadow: 0 0 0 2rem skyblue;*/
   border-radius: 3px;
-  font: 1rem Monaco;
+  font: 1rem Didot;
   margin: 2rem;
   padding: 1rem;
   width: 20px;
