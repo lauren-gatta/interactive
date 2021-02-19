@@ -91,7 +91,7 @@ a:hover {
 .container {
   display:flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: left;
   align-items: stretch;
   align-content: center;
