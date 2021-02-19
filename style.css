@@ -55,7 +55,7 @@ a:hover {
 }
 
 #box3 {
-  width: 800px;
+  width: 850px;
   height: 30px;
   border: 0.3rem outset MediumOrchid;
   /*outline: 0.5rem solid khaki;*/
@@ -78,7 +78,7 @@ a:hover {
   /*box-shadow: 0 0 0 2rem skyblue;*/
   border-radius: 3px;
   font: 1rem Didot;
-  margin: 1rem;
+  margin: .3rem;
   padding: .1rem;
   outline-offset: 0.5rem;
   background-color: Black;
