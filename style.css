@@ -54,6 +54,22 @@ a:hover {
   padding-right: 50 px;
 }
 
+#box3 {
+  width: 840px;
+  height: 50px;
+  border: 0.3rem outset MediumOrchid;
+  /*outline: 0.5rem solid khaki;*/
+  /*box-shadow: 0 0 0 2rem skyblue;*/
+  border-radius: 3px;
+  font: 1rem Didot;
+  margin: 2rem;
+  padding: 1rem;
+  outline-offset: 0.5rem;
+  background-color: Black;
+  padding-left: 70px;
+  padding-right: 50 px;
+}
+
 #box2 {
   width: 120px;
   height: 80px;
