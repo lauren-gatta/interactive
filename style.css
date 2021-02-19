@@ -61,13 +61,11 @@ a:hover {
   /*outline: 0.5rem solid khaki;*/
   /*box-shadow: 0 0 0 2rem skyblue;*/
   border-radius: 3px;
-  font: Didot;
-  font-size: 12pt;
+  font: 1rem Didot;
   margin: .1rem;
-  /*padding: 1rem;*/
-  /*outline-offset: 0.5rem;*/
+  padding: .1rem;
+  outline-offset: 0.5rem;
   background-color: Black;
-  display: inline;
   /*padding-left: 70px;*/
   /*padding-right: 50 px;*/
 }
