@@ -64,10 +64,10 @@ a:hover {
   padding: 1rem;
   width: 20px;
   height: 20px;
-  outline-offset: 0.5rem;
+  /*outline-offset: 0.5rem;*/
   background-color: Black;
-  padding-left: 70px;
-  padding-right: 50 px;
+  /*padding-left: 70px;*/
+  /*padding-right: 50 px;*/
 }
 
 /*div {
