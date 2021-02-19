@@ -59,8 +59,9 @@ a:hover {
   /*outline: 0.5rem solid khaki;*/
   /*box-shadow: 0 0 0 2rem skyblue;*/
   border-radius: 3px;
-  font: 1rem Didot;
-  margin: 1rem;
+  font: Didot;
+  font-size: 12pt;
+  margin: .1rem;
   /*padding: 1rem;*/
   width: 120px;
   height: 80px;
