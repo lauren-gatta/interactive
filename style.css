@@ -82,7 +82,7 @@ a:hover {
   padding: .1rem;
   outline-offset: 0.5rem;
   background-color: Black;
-  display: inline-block;
+  /*display: inline-block;*/
   /*padding-left: 70px;*/
   /*padding-right: 50 px;*/
 }
