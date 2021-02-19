@@ -87,6 +87,14 @@ a:hover {
   /*padding-right: 50 px;*/
 }
 
+.container {
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: stretch;
+  align-content: center;
+}
+
 /*div {
   padding: 1rem;
   outline-offset: 0.5rem;
