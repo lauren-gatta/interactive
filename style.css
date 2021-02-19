@@ -54,6 +54,22 @@ a:hover {
   padding-right: 50 px;
 }
 
+#box2 {
+  border: 0.3rem outset SpringGreen;
+  /*outline: 0.5rem solid khaki;*/
+  /*box-shadow: 0 0 0 2rem skyblue;*/
+  border-radius: 3px;
+  font: 1rem Monaco;
+  margin: 2rem;
+  padding: 1rem;
+  width: 20px;
+  height: 20px;
+  outline-offset: 0.5rem;
+  background-color: Black;
+  padding-left: 70px;
+  padding-right: 50 px;
+}
+
 /*div {
   padding: 1rem;
   outline-offset: 0.5rem;
