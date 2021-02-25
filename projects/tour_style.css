@@ -25,7 +25,7 @@ a:hover {
 }
 
 #grad {
-	background-image: linear-gradient (slateblue, darkslateblue);
+	background-image: linear-gradient (to bottom, slateblue, navy);
 }
 
 #box {
