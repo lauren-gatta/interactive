@@ -2,6 +2,7 @@ body {
   /*text-align: center;*/
   /*background-color: Black;*/
   /*color: orange;*/
+  background-image: linear-gradient (to bottom, slateblue, navy);
   font-family: helvetica;
   padding-left: 100px;
   padding-top: 100px;
@@ -24,9 +25,9 @@ a:hover {
 	color: violet;
 }
 
-#grad {
+/*#grad {
 	background-image: linear-gradient (to bottom, slateblue, navy);
-}
+}*/
 
 #box {
   width: 50rem;
