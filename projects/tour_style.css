@@ -42,7 +42,7 @@ a:hover {
   outline-offset: 0.5rem;
   background-color: slateblue;
   display: inline-block;
-  animation-name: colorchange;
+  animation-name: colorchangeone;
   animation-duration: 90s;
 }
 
@@ -186,7 +186,7 @@ a:hover {
 https://media4.giphy.com/media/PEsfxkQjPufXNPAjix/giphy.gif
 
 
-@keyframes colorchange {
+@keyframes colorchangeone {
 	from {background-color: slateblue;}
 	to {background-color: orange;}
 }
