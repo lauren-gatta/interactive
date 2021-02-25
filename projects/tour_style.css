@@ -25,8 +25,8 @@ a:hover {
 }
 
 #box {
-  width: 600px;
-  height: 300px;
+  width: 50rem;
+  height: 20rem;
   border: 0.2rem outset lightyellow;
   border-radius: 2px;
   font: .85rem helvetica;
