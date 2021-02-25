@@ -29,7 +29,7 @@ a:hover {
   height: 400px;
   border: 0.2rem outset lightyellow;
   border-radius: 2px;
-  font: 1rem helvetica;
+  font: .5rem helvetica;
   margin: .2rem;
   padding: .1rem;
   outline-offset: 0.5rem;
