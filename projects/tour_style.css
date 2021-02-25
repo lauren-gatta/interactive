@@ -88,8 +88,8 @@ a:hover {
   outline-offset: 0.5rem;
   background-color: slateblue;
   display: inline-block;
-/*  animation-name: colorchange2;
-  animation-duration: 90s;*/
+  animation-name: colorchange;
+  animation-duration: 90s;
 }
 
 @keyframes colorchange {
