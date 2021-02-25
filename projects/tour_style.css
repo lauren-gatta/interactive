@@ -29,7 +29,7 @@ a:hover {
 	background-image: linear-gradient (to bottom, slateblue, navy);
 }*/
 
-#box {
+#box1 {
   width: 50rem;
   height: 20rem;
   border: 0.2rem;
@@ -42,7 +42,7 @@ a:hover {
   outline-offset: 0.5rem;
   background-color: slateblue;
   display: inline-block;
-  animation-name: colorchangeone;
+  animation-name: colorchange;
   animation-duration: 90s;
 }
 
@@ -186,7 +186,7 @@ a:hover {
 https://media4.giphy.com/media/PEsfxkQjPufXNPAjix/giphy.gif
 
 
-@keyframes colorchangeone {
+@keyframes colorchange {
 	from {background-color: slateblue;}
 	to {background-color: orange;}
 }
