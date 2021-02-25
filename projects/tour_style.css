@@ -38,7 +38,7 @@ a:hover {
   background-color: slateblue;
   display: inline-block;
   animation-name: colorchange;
-  animation-duration: 40s;
+  animation-duration: 90s;
 }
 
 #box2 {
@@ -55,7 +55,7 @@ a:hover {
   background-color: slateblue;
   display: inline-block;
   animation-name: colorchange2;
-  animation-duration: 40s;
+  animation-duration: 90s;
 }
 
 @keyframes colorchange {
