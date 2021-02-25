@@ -1,0 +1,47 @@
+body {
+  /*text-align: center;*/
+  background-color: Black;
+  color: orange;
+  font-family: helvetica;
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-bottom: 500px;
+  /*border: solid purple;*/
+}
+
+h1 {
+	font-family: consolas;
+	color: tomato;
+}
+
+a {
+	color: azure;
+	text-decoration: none;
+}
+
+a:hover {
+	color: violet;
+}
+
+#box {
+  width: 200px;
+  height: 200px;
+  border: 0.2rem outset violet;
+  border-radius: 2px;
+  font: 1rem helvetica;
+  margin: .2rem;
+  padding: .1rem;
+  outline-offset: 0.5rem;
+  background-color: lightyellow;
+  display: inline-block;
+}
+
+.container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: left;
+  align-items: stretch;
+  align-content: center;
+}
