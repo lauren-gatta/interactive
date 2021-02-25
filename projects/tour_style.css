@@ -2,7 +2,7 @@ body {
   /*text-align: center;*/
   /*background-color: Black;*/
   /*color: orange;*/
-  background-image: linear-gradient (to bottom, slateblue, navy);
+  background-image: linear-gradient (slateblue, navy);
   font-family: helvetica;
   padding-left: 100px;
   padding-top: 100px;
