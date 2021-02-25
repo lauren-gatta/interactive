@@ -41,10 +41,10 @@ a:hover {
   margin: .2rem;
   padding: .1rem;
   outline-offset: 0.5rem;
-  background-color: slateblue;
   display: inline-block;
-  animation-name: colorchange;
+  animation-name: colorchangefive;
   animation-duration: 90s;
+  background-color: slateblue;
 }
 
 #box2 {
@@ -184,16 +184,14 @@ a:hover {
   animation-duration: 90s;
 }
 
-https://media4.giphy.com/media/PEsfxkQjPufXNPAjix/giphy.gif
-
-@keyframes colorchange {
-	from {background-color: slateblue;}
-	to {background-color: orange;}
-}
-
 @keyframes colorchangetwo {
 	from {background-color: slateblue;}
 	to {background-color: tomato;}
+}
+
+@keyframes colorchangefive {
+	from {background-color: slateblue;}
+	to {background-color: orange;}
 }
 
 @keyframes colorchangethree {
