@@ -16,7 +16,7 @@ h1 {
 }
 
 a {
-	color: azure;
+	color: slateblue;
 	text-decoration: none;
 }
 
@@ -27,7 +27,9 @@ a:hover {
 #box {
   width: 50rem;
   height: 20rem;
-  border: 0.2rem outset lemonchiffon;
+  border: 0.2rem;
+  border-style: solid;
+  border-color: orange;
   border-radius: 2px;
   font: .85rem helvetica;
   margin: .2rem;
@@ -35,6 +37,35 @@ a:hover {
   outline-offset: 0.5rem;
   background-color: slateblue;
   display: inline-block;
+  animation-name: colorchange;
+  animation-duration: 20s;
+}
+
+#box2 {
+  width: 50rem;
+  height: 20rem;
+  border: 0.2rem;
+  border-style: solid;
+  border-color: tomato;
+  border-radius: 2px;
+  font: .85rem helvetica;
+  margin: .2rem;
+  padding: .1rem;
+  outline-offset: 0.5rem;
+  background-color: slateblue;
+  display: inline-block;
+  animation-name: colorchange2;
+  animation-duration: 20s;
+}
+
+@keyframes colorchange {
+	from {background-color: slateblue;}
+	to {background-color: orange;}
+}
+
+@keyframes colorchange2 {
+	from {background-color: slateblue;}
+	to {background-color: tomato;}
 }
 
 .container {
