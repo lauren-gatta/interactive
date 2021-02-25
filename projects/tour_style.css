@@ -108,7 +108,7 @@ a:hover {
   margin: .2rem;
   padding: .1rem;
   outline-offset: 0.5rem;
-  background-color: slateblue;
+  background-color: navy;
   display: inline-block;
   animation-name: colorchangethree;
   animation-duration: 90s;
@@ -125,7 +125,7 @@ a:hover {
   margin: .2rem;
   padding: .1rem;
   outline-offset: 0.5rem;
-  background-color: slateblue;
+  background-color: navy;
   display: inline-block;
   animation-name: colorchangefour;
   animation-duration: 90s;
