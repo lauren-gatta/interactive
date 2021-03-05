@@ -53,7 +53,7 @@ a:hover {
   outline-offset: 0.5rem;
   display: inline-block;
   animation-name: colorchangefive;
-  animation-duration: 90s;
+  animation-duration: 60s;
   animation-iteration-count: infinite;
   background-color: slateblue;
 }
@@ -72,7 +72,7 @@ a:hover {
   background-color: slateblue;
   display: inline-block;
   animation-name: colorchangetwo;
-  animation-duration: 90s;
+  animation-duration: 60s;
   animation-iteration-count: infinite;
 }
 
@@ -108,7 +108,7 @@ a:hover {
 /*  background-image: url(https://media1.giphy.com/media/U3qYN8S0j3bpK/giphy.gif?cid=ecf05e47h7zchti3h4o35culzkktgzzd7isinftnw7qz3eam&rid=giphy.gif);
 */  display: inline-block;
   animation-name: colorchangetwo;
-  animation-duration: 90s;
+  animation-duration: 60s;
   animation-iteration-count: infinite;
 }
 
@@ -126,7 +126,7 @@ a:hover {
   background-color: navy;
   display: inline-block;
   animation-name: colorchangethree;
-  animation-duration: 90s;
+  animation-duration: 60s;
   animation-iteration-count: infinite;
 }
 
@@ -144,7 +144,7 @@ a:hover {
   background-color: navy;
   display: inline-block;
   animation-name: colorchangefour;
-  animation-duration: 90s;
+  animation-duration: 60s;
   animation-iteration-count: infinite;
 }
 
@@ -163,7 +163,7 @@ a:hover {
   background-color: navy;
   display: inline-block;
   animation-name: colorchangefour;
-  animation-duration: 90s;
+  animation-duration: 60s;
   animation-iteration-count: infinite;
 }
 
@@ -181,7 +181,7 @@ a:hover {
   background-color: navy;
   display: inline-block;
   animation-name: colorchangethree;
-  animation-duration: 90s;
+  animation-duration: 60s;
   animation-iteration-count: infinite;
 }
 
@@ -199,7 +199,7 @@ a:hover {
   background-color: navy;
   display: inline-block;
   animation-name: colorchangefour;
-  animation-duration: 90s;
+  animation-duration: 60s;
   animation-iteration-count: infinite;
 }
 
