@@ -204,7 +204,7 @@ a:hover {
 }
 
 #box10 {
-  width: 60rem;
+  width: 50rem;
   height: 40rem;
   border: 0.2rem;
   border-style: solid;
@@ -240,6 +240,44 @@ a:hover {
 @keyframes colorchangefour {
 	from {background-color: slateblue;}
 	to {background-color: palegoldenrod;}
+}
+
+#ten {
+  animation-duration: .08s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 10px;
+    width: 100%;
+  }
+
+  to {
+    margin-right: 10px;
+    width: 100%;
+  }
+}
+
+#ten2 {
+  animation-duration: .08s;
+  animation-name: slideintwo;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slideintwo {
+  from {
+    margin-right: 20px;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 20px;
+    width: 100%;
+  }
 }
 
 .container {
