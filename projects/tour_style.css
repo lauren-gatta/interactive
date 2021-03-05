@@ -206,20 +206,34 @@ a:hover {
 #box10 {
   width: 50rem;
   height: 40rem;
-  border: 0.2rem;
-  border-style: solid;
-  border-color: gold;
-  border-radius: 2px;
+  /*border: 0.2rem;*/
+  /*border-style: solid;*/
+  /*border-color: gold;*/
+  /*border-radius: 2px;*/
   font: .85rem helvetica;
   margin: .2rem;
   padding: .1rem;
-  outline-offset: 0.5rem;
-  background-color: moccasin;
+  /*outline-offset: 0.5rem;*/
+  /*background-color: moccasin;*/
   display: inline-block;
   align-items: center;
-  /*animation-name: colorchangefour;*/
+  animation-name: MoveUpDown;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  /*left: 0;*/
+  /*bottom: 0;*/
   /*animation-duration: 90s;*/
   /*animation-iteration-count: infinite;*/
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
 }
 
 @keyframes colorchangetwo {
