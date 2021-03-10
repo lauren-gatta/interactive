@@ -25,6 +25,40 @@ h2 {
   /*font-size: 35px;*/
 }
 
+p {
+  font-family: helvetica;
+  color: tomato;
+  font-size: 35px;
+  animation-name: color-change;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+h4 {
+  font-family: helvetica;
+  color: tomato;
+  font-size: 35px;
+  animation-name: color-change2;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes color-change {
+  0% { color: tomato; }
+    25% { color: orange; }
+    50% { color: slateblue; }
+    75% { color: coral; }
+    100% { color: tomato; }
+}
+
+@keyframes color-change2 {
+  0% { color: slateblue; }
+    25% { color: orange; }
+    50% { color: tomato; }
+    75% { color: coral; }
+    100% { color: slateblue; }
+}
+
 a {
 	color: slateblue;
 	text-decoration: none;
@@ -293,6 +327,15 @@ a:hover {
     width: 100%;
   }
 }
+
+/*h3 {
+    -webkit-animation: color-change 1s infinite;  
+}
+
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }*/
 
 .container {
   display:flex;
