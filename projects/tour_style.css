@@ -49,6 +49,15 @@ h4 {
   animation-iteration-count: infinite;
 }
 
+h5 {
+  font-family: helvetica;
+  color: tomato;
+  font-size: 50px;
+  animation-name: color-change;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
 @keyframes color-change {
   0% { color: tomato; }
     25% { color: orange; }
