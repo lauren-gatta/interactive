@@ -192,7 +192,7 @@ a:hover {
   width: 50rem;
   height: 30rem;
   border: 0.2rem;
-  background-image: url(https://media4.giphy.com/media/PEsfxkQjPufXNPAjix/giphy.gif);
+  /*background-image: url(https://media4.giphy.com/media/PEsfxkQjPufXNPAjix/giphy.gif);*/
   /*border-style: solid;*/
   /*border-color: palegoldenrod;*/
   /*border-radius: 2px;*/
@@ -208,8 +208,8 @@ a:hover {
 }
 
 #box8 {
-  width: 50rem;
-  height: 10rem;
+  width: 15rem;
+  height: 6rem;
   border: 0.2rem;
   border-style: solid;
   border-color: moccasin;
@@ -220,14 +220,14 @@ a:hover {
   outline-offset: 0.5rem;
   background-color: navy;
   display: inline-block;
-  animation-name: colorchangethree;
+  animation-name: colorchangesix;
   animation-duration: 60s;
   animation-iteration-count: infinite;
 }
 
 #box9 {
-  width: 50rem;
-  height: 10rem;
+  width: 15rem;
+  height: 6rem;
   border: 0.2rem;
   border-style: solid;
   border-color: palegoldenrod;
@@ -238,7 +238,7 @@ a:hover {
   outline-offset: 0.5rem;
   background-color: navy;
   display: inline-block;
-  animation-name: colorchangefour;
+  animation-name: colorchangeseven;
   animation-duration: 60s;
   animation-iteration-count: infinite;
 }
@@ -294,6 +294,16 @@ a:hover {
 @keyframes colorchangefour {
 	from {background-color: slateblue;}
 	to {background-color: palegoldenrod;}
+}
+
+@keyframes colorchangesix {
+  from {background-color: firebrick;}
+  to {background-color: moccasin;}
+}
+
+@keyframes colorchangeseven {
+  from {background-color: maroon;}
+  to {background-color: palegoldenrod;}
 }
 
 #ten {
