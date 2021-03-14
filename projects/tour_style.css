@@ -34,7 +34,7 @@ h2 {
 p {
   font-family: helvetica;
   color: tomato;
-  font-size: 35px;
+  font-size: 28px;
   animation-name: color-change;
   animation-duration: 6s;
   animation-iteration-count: infinite;
