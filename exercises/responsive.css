@@ -4,8 +4,9 @@ body {
 }
 
 p {
-	font-family: trattatello;
+	font-family: geneva;
 	font-size: 24px;
+	color: darkred;
 	padding: 25px;
 }
 
@@ -14,6 +15,7 @@ p {
 	height: 100px;
 	background-color: indianred;
 	text-align: center;
+	border-radius: 20px;
 }
 
 @media all and (min-width: 600px)
@@ -21,6 +23,7 @@ p {
 	p {
 		font-size: 36px;
 		padding: 65px;
+		color: sienna;
 	}
 	#div1 {
 		width:  650px;
@@ -34,6 +37,7 @@ p {
 	p {
 		font-size: 54px;
 		padding: 100px;
+		color: sandybrown;
 	}
 	#div1 {
 		width: 800px;
@@ -47,6 +51,7 @@ p {
 	p {
 		font-size: 81px;
 		padding: 120px;
+		color: seagreen;
 	}
 	#div1 {
 		width: 950px;
@@ -58,8 +63,9 @@ p {
 @media all and (min-width: 1140px)
 {
 	p {
-		font-size: 121px;
-		padding: 150px;
+		font-size: 95px;
+		padding: 165px;
+		color: teal;
 	}
 	#div1 {
 		width: 1100px;
@@ -71,12 +77,27 @@ p {
 @media all and (min-width: 1320px)
 {
 	p {
-		font-size: 132px;
-		padding: 190px;
+		font-size: 102px;
+		padding: 210px;
+		color: indigo;
 	}
 	#div1 {
 		width: 1300px;
 		height: 600px;
 		background-color: mediumslateblue;
+	}
+}
+
+@media all and (min-width: 1380px)
+{
+	p {
+		font-size: 102px;
+		padding: 210px;
+		color: white;
+	}
+	#div1 {
+		width: 1300px;
+		height: 600px;
+		background-image: url(https://media3.giphy.com/headers/jmckeehen/s2wy7iphPP98.gif) ;
 	}
 }
