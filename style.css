@@ -73,7 +73,7 @@ a:hover {
 #box2 {
   width: 120px;
   height: 80px;
-  border: 0.2rem outset SpringGreen;
+  border: 0.1rem outset SpringGreen;
   /*outline: 0.5rem solid khaki;*/
   /*box-shadow: 0 0 0 2rem skyblue;*/
   border-radius: 3px;
