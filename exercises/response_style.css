@@ -1,0 +1,111 @@
+body {
+	font-family: menlo;
+	font-size: 12px;
+	background-color: #181818;
+	color: white;
+}
+
+#box1 {
+  width: 20rem;
+  height: 15rem;
+  border: 0.1rem;
+  border-style: solid;
+  border-color: cornsilk;
+  border-radius: 2px;
+  /*font: .85rem helvetica;*/
+  margin: .2rem;
+  padding: .3rem;
+  /*outline-offset: 0.5rem;*/
+  /*display: inline-block;*/
+  /*animation-name: colorchangefive;*/
+  /*animation-duration: 60s;*/
+  /*animation-iteration-count: infinite;*/
+  background-color: black;	
+  border-radius: 10px;
+  position: relative;
+  left: 100px;
+}
+
+#box2 {
+  width: 30rem;
+  height: 20rem;
+  border: 0.1rem;
+  border-style: solid;
+  border-color: cornsilk;
+  border-radius: 2px;
+  /*font: .85rem helvetica;*/
+  margin: .2rem;
+  padding: .3rem;
+  /*outline-offset: 0.5rem;*/
+  /*display: inline-block;*/
+  /*animation-name: colorchangefive;*/
+  /*animation-duration: 60s;*/
+  /*animation-iteration-count: infinite;*/
+  background-color: black;	
+  border-radius: 10px;
+  position: relative;
+  left: 500px;
+}
+
+#box3 {
+  width: 15rem;
+  height: 10rem;
+  border: 0.1rem;
+  border-style: solid;
+  border-color: cornsilk;
+  border-radius: 2px;
+  /*font: .85rem helvetica;*/
+  margin: .2rem;
+  padding: .3rem;
+  /*outline-offset: 0.5rem;*/
+  /*display: inline-block;*/
+  /*animation-name: colorchangefive;*/
+  /*animation-duration: 60s;*/
+  /*animation-iteration-count: infinite;*/
+  background-color: black;	
+  border-radius: 10px;
+  position: relative;
+  left: 200px;
+}
+
+#box4 {
+  width: 35rem;
+  height: 18rem;
+  border: 0.1rem;
+  border-style: solid;
+  border-color: cornsilk;
+  border-radius: 2px;
+  /*font: .85rem helvetica;*/
+  margin: .2rem;
+  padding: .3rem;
+  /*outline-offset: 0.5rem;*/
+  /*display: inline-block;*/
+  /*animation-name: colorchangefive;*/
+  /*animation-duration: 60s;*/
+  /*animation-iteration-count: infinite;*/
+  background-color: black;	
+  border-radius: 10px;
+  position: relative;
+  left: 100px;
+}
+
+#box5 {
+  width: 25rem;
+  height: 12rem;
+  border: 0.1rem;
+  border-style: solid;
+  border-color: cornsilk;
+  border-radius: 2px;
+  /*font: .85rem helvetica;*/
+  margin: .2rem;
+  padding: .3rem;
+  /*outline-offset: 0.5rem;*/
+  /*display: inline-block;*/
+  /*animation-name: colorchangefive;*/
+  /*animation-duration: 60s;*/
+  /*animation-iteration-count: infinite;*/
+  background-color: black;	
+  border-radius: 10px;
+  position: relative;
+  left: 450px;
+}
