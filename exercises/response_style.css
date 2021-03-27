@@ -1,7 +1,8 @@
 body {
 	font-family: menlo;
 	font-size: 12px;
-	background-color: #181818;
+  background-image: url(https://media4.giphy.com/media/JoVV55m3KZHdxlpFZ6/giphy.gif?cid=ecf05e479b1cjir0bul246jc1xhxtn6683gtl2jcnaqhwzu4&rid=giphy.gif);
+	/*background-color: #181818;*/
 	color: white;
 }
 
