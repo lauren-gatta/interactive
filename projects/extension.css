@@ -1,28 +1,39 @@
-/*@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");*/
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");
 
 body {
 	color: black;
 	background-color: floralwhite;
 	font-family: noto-sans; 
-	padding: 50px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-top: 50px; 
 }
 
 h1 {
-	font-size: 24px;
+	font-size: 28px;
 	font-family: helvetica;
+	color: mediumblue;
 }
 
 h2 {
 	font-size: 18px;
 	font-family: helvetica;
+	color: mediumblue;
 }
 
 h3 {
 	font-size: 14px;
 	font-family: helvetica;
+	color: slategray;
+}
+
+a {
+	color: slategray;
+	font-family: helvetica;
 }
 
 p {
-	font-family: hk-grotesk;
+	font-family: 'HK Grotesk';
 	font-size: 12px;
+	color: darkslategrey;
 }
