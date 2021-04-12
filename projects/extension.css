@@ -39,6 +39,20 @@ p {
 	color: darkslategrey;
 }
 
-table {
-	display: inline-block;
+#box1 {
+	width: 65rem;
+	height: 12rem;
 }
+
+.container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: left;
+  align-items: stretch;
+  align-content: center;
+}
+
+/*table {
+	display: inline-block;
+}*/
