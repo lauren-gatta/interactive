@@ -1,10 +1,10 @@
 /*CSS Style Sheet — Lauren*/
-
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");
 body {
   /*text-align: center;*/
   background-color: Black;
   color: azure;
-  font-family: Monaco;
+  font-family: 'HK Grotesk';
   padding-left: 150px;
   padding-top: 100px;
   padding-right: 150px;
@@ -13,26 +13,26 @@ body {
 }
 h1 {
   color: MediumOrchid;
-  font-family: Monaco;
+  font-family: 'HK Grotesk';
 }
 
 h2 {
   color: MediumOrchid;
-  font-family: Monaco;
+  font-family: 'HK Grotesk';
 }
 
 a {
   color: azure;
-  font-family: Monaco;
+  font-family: 'HK Grotesk';
 }
 
 p {
   color: azure;
-  font-family: Monaco;
+  font-family: 'HK Grotesk';
 }
 
 ol {
-	  font-family: Monaco;
+	  font-family: 'HK Grotesk';
 	  color: azure;
 }
 
