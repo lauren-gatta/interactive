@@ -38,3 +38,7 @@ p {
 	font-size: 12px;
 	color: darkslategrey;
 }
+
+table {
+	display: inline-block;
+}
