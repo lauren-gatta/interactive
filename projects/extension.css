@@ -43,6 +43,11 @@ p {
 	width: 65rem;
 	height: 12rem;
 }
+
+#box2 {
+	width: 65rem;
+	height: 13rem;
+}
 .container {
   display:flex;
   flex-direction: row;
