@@ -1,0 +1,90 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");
+
+body {
+    font-family: 'HK Grotesk';
+    background-image: linear-gradient(darkblue, midnightblue, black);
+}
+
+#star {
+    width: 1rem;
+    height: 1rem;
+    font-size: 15px;
+    color: white;
+    animation-name: color-change;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#star1 {
+    width: 1rem;
+    height: 1rem;
+    font-size: 25px;
+    color: white;
+    animation-name: color-change1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#star2 {
+    width: 1rem;
+    height: 1rem;
+    font-size: 35px;
+    color: white;
+    animation-name: color-change;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+#star3 {
+    width: 1rem;
+    height: 1rem;
+    font-size: 15px;
+    color: white;
+    animation-name: color-change1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#star4 {
+    width: 1rem;
+    height: 1rem;
+    font-size: 15px;
+    color: white;
+    animation-name: color-change1;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+#star5 {
+    width: 1rem;
+    height: 1rem;
+    font-size: 15px;
+    color: white;
+    animation-name: color-change1;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+#star6 {
+    width: 1rem;
+    height: 1rem;
+    font-size: 35px;
+    color: white;
+    animation-name: color-change;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color-change {
+  0% { color: midnightblue; }
+    50% { color: navy; }
+    75% { color: white; }
+    100% { color: midnightblue; }
+}
+
+@keyframes color-change1 {
+  0% { color: navy; }
+    50% { color: midnightblue; }
+    75% { color: white; }
+    100% { color: navy; }
+}
