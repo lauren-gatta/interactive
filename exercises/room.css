@@ -83,6 +83,48 @@ body {
     animation-timing-function: linear;
 }
 
+#window1 {
+	width: 40px;
+	height: 100px;
+	background: lightpink;
+	position: absolute;
+	left: 700px;
+	top: 600px;
+	z-index: 2;
+}
+
+#window2 {
+	width: 40px;
+	height: 100px;
+	background: lightpink;
+	position: absolute;
+	left: 1000px;
+	top: 600px;
+	z-index: 2;
+}
+
+#window3 {
+	width: 40px;
+	height: 100px;
+	background: lightpink;
+	position: absolute;
+	left: 50px;
+	top: 600px;
+	z-index: 2;
+}
+
+#window4 {
+	width: 40px;
+	height: 100px;
+	background: lightpink;
+	position: absolute;
+	left: 300px;
+	top: 600px;
+	z-index: 2;
+}
+
+
+
 @keyframes sun_move {
         0% {
           left: 0vw;
