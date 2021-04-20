@@ -1,0 +1,51 @@
+<html> 
+  <head>
+    <link rel="stylesheet" href="room.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>view from my window</title>
+  <!-- <link rel="icon" type="image/png" href=""/> -->
+  </head>
+    <style>
+    #sun {
+  width: 100px;
+    height: 100px;
+    background: lightyellow;
+    position: relative;
+    border-radius: 50%;
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    }
+    @keyframes move {
+        0% {
+          left: 0vw;
+        }
+        100% {
+          left: 95vw;
+        }
+      }
+    </style>
+<body style="background-color: lightpink";>
+  <br>
+  <a href="../index.html" style = "color: black";>Back</a> 
+  <br><br>
+  <div id="battellbody"></div>
+  <div id="battell"></div>
+  <div id="durfee"></div>
+  <div id="battelltower"></div>
+  <div id="durfeetri1"></div> 
+  <div id="durfeetri2"></div>  
+  <div id="sun"></div>
+  <br><br><br><br><br><br><br>
+  <script>
+    var sec = start_time.getSeconds();
+
+    var move = document.getElementById("sun");
+      move.style.animationDuration = "60s";
+      // move.style.animationDelay = -sec + "s";
+// Get clearInterval working
+      setTimeout(stop, 5000);
+  </script>
+  </body>

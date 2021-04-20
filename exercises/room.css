@@ -1,0 +1,93 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");
+
+body {
+	color: black;
+	background-color: lightpink; 
+	font-family: 'HK Grotesk';
+}
+
+#battell {
+	width: 100px;
+	height: 500px;
+	background: indianred;
+	position: absolute;
+	left: 400px;
+	top: 300px;
+	z-index: 1;
+}
+
+#battellbody {
+	width: 400px;
+	height: 300px;
+	background: indianred;
+	margin-bottom: 0px;
+	position: absolute;
+	left: 0px;
+	top: 500px;
+	z-index: 0;
+}
+
+#durfee {
+	width: 500px;
+	height: 300px;
+	background: indianred;
+	position: absolute;
+	left: 600px;
+	top: 500px;
+	z-index: 0;
+}
+
+#battelltower {
+	width: 0;
+	height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid maroon;
+    position: absolute;
+	left: 400px;
+	top: 200px;
+	z-index: 1;
+}
+
+#durfeetri1 {
+	width: 0;
+	height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 50px solid maroon;
+    position: absolute;
+	left: 650px;
+	top: 450px;
+	z-index: 1;
+}
+
+#durfeetri2 {
+	width: 0;
+	height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 50px solid maroon;
+    position: absolute;
+	left: 900px;
+	top: 450px;
+	z-index: 1;
+}
+
+#sun {
+	width: 100px;
+  	height: 100px;
+  	background: lightyellow;
+  	border-radius: 50%;
+  	animation-name: sun_move;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes sun_move {
+        0% {
+          left: 0vw;
+        }
+        100% {
+          left: 95vw;
+        }
+      }

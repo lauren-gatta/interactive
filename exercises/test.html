@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Animation delay</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      .explanation {
+        position: absolute;
+        bottom: 0px;
+      }
+      #hour,
+      #minute,
+      #second {
+        width: 5vw;
+        height: 100px;
+        position: relative;
+        color: white;
+        text-align: center;
+        line-height: 5vw;
+        animation-name: move_across;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      #hour {
+        background-color: blue;
+      }
+      #minute {
+        background-color: green;
+      }
+      #second {
+        background-color: red;
+      }
+      /* All the divs will have the same animation-- to move from the left side of the screen to the right.       */
+      @keyframes move_across {
+        0% {
+          left: 0vw;
+        }
+        100% {
+          left: 95vw;
+        }
+      }
+    </style>
+  </head>
+  <body>
+     <a class="home" href="index.html">Back to index</a>
+    <div class="explanation">
+      A simple clock
+      <p style="color:red">
+        One div marks seconds. It animates from the left of the screen to the
+        right of the screen every 60 seconds.
+      </p>
+      <p style="color:green">
+        One div marks minutes. It animates from the left of the screen to the
+        right of the screen every 60 minutes.
+      </p>
+      <p style="color:blue">
+        One div marks hours. It animates from the left of the screen to the
+        right of the screen every 24 hours
+      </p>
+    </div>
+
+    <div id="second"></div>
+    <div id="minute"></div>
+    <div id="hour"></div>
+
+    <script>
+      // First get current time.
+      var start_time = new Date();
+
+      // get hours, minute, and second values, and store those in variables.
+      var hrs = start_time.getHours();
+      var min = start_time.getMinutes();
+      var sec = start_time.getSeconds();
+
+      // let's log that to make sure it's working.
+      console.log(hrs + ":" + min + ":" + sec);
+
+      // apply animation to hour hand with correct duration and correct animation-delay.
+      var hour_hand = document.getElementById("hour");
+      hour_hand.style.animationDuration = "86400s";
+      hour_hand.style.animationDelay = -hrs * 3600 + "s";
+
+      // apply animation to second hand with correct duration and correct animation-delay.
+      var minute_hand = document.getElementById("minute");
+      minute_hand.style.animationDuration = "3600s";
+      minute_hand.style.animationDelay = -min * 60 + "s";
+
+      // apply animation to second hand with correct duration and correct animation-delay.
+      var second_hand = document.getElementById("second");
+      second_hand.style.animationDuration = "60s";
+      second_hand.style.animationDelay = -sec + "s";
+
+      //       This function just updates the text in the little blocks
+      function display_time() {
+        var update_time = new Date();
+        var update_hrs = update_time.getHours();
+        var update_min = update_time.getMinutes();
+        var update_sec = update_time.getSeconds();
+        hour_hand.innerHTML = update_hrs;
+        minute_hand.innerHTML = update_min;
+        second_hand.innerHTML = update_sec;
+        console.log("Displayed!");
+      }
+      // and here, we make sure to update the text in the blocks every second.
+      let update = setInterval(display_time, 1000);
+      
+      function stop() {
+        clearInterval(update);
+      }
+// Get clearInterval working
+      setTimeout(stop, 5000);
+      
+    </script>
+  </body>
+</html>
