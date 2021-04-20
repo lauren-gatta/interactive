@@ -2,7 +2,7 @@
 
 body {
 	color: black;
-	background-color: lightpink; 
+	background-image: linear-gradient(to bottom, lightpink, mediumslateblue); 
 	font-family: 'HK Grotesk';
 }
 

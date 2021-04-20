@@ -40,11 +40,12 @@
   <div id="sun"></div>
   <br><br><br><br><br><br><br>
   <script>
+    var start_time = new Date();
     var sec = start_time.getSeconds();
 
     var move = document.getElementById("sun");
       move.style.animationDuration = "60s";
-      // move.style.animationDelay = -sec + "s";
+      move.style.animationDelay = -sec + "s";
 // Get clearInterval working
       setTimeout(stop, 5000);
   </script>
