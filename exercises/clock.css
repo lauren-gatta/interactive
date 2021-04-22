@@ -1,0 +1,103 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");
+
+body {
+	color: black;
+	background-image: linear-gradient(to bottom, lightpink, brown); 
+	font-family: 'HK Grotesk';
+}
+
+#cup1 {
+	width: 0;
+    height: 0;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-top: 100px solid peachpuff;
+	position: absolute;
+	left: 75px;
+	top: 200px;
+	z-index: 0;
+}
+
+#handle1 {
+	width: 10px;
+  	height: 200px;
+  	background: peachpuff;
+	position: absolute;
+	left: 210px;
+	top: 270px;
+	z-index: 0;
+}
+
+#base1 {
+	width: 70px;
+  	height: 10px;
+  	background: peachpuff;
+	position: absolute;
+	left: 180px;
+	top: 470px;
+	z-index: 0;
+}
+
+#cup2 {
+	width: 0;
+    height: 0;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-top: 100px solid silver;
+	position: absolute;
+	left: 400px;
+	top: 200px;
+	z-index: 0;
+}
+
+#handle2 {
+	width: 10px;
+  	height: 200px;
+  	background: silver;
+	position: absolute;
+	left: 535px;
+	top: 270px;
+	z-index: 0;
+}
+
+#base2 {
+	width: 70px;
+  	height: 10px;
+  	background: silver;
+	position: absolute;
+	left: 505px;
+	top: 470px;
+	z-index: 0;
+}
+
+#cup3 {
+	width: 0;
+    height: 0;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-top: 100px solid rosybrown;
+	position: absolute;
+	left: 725px;
+	top: 200px;
+	z-index: 0;
+}
+
+#handle3 {
+	width: 10px;
+  	height: 200px;
+  	background: rosybrown;
+	position: absolute;
+	left: 860px;
+	top: 270px;
+	z-index: 0;
+}
+
+#base3 {
+	width: 70px;
+  	height: 10px;
+  	background: rosybrown;
+	position: absolute;
+	left: 830px;
+	top: 470px;
+	z-index: 0;
+}
