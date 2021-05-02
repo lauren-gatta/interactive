@@ -21,6 +21,7 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     transform-origin: bottom;
+    animation-duration: 3600s;
     }
     #liquid2 {
     width: 0;
@@ -35,6 +36,7 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     transform-origin: bottom;
+    animation-duration: 3600s;
     }
     #liquid3 {
     width: 0;
@@ -49,6 +51,7 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     transform-origin: bottom;
+    animation-duration: 3600s;
     }
     @keyframes scale {
         0% {
@@ -85,9 +88,9 @@
     var sec = start_time.getSeconds();
 
     var hour_hand = document.getElementById("liquid1");
-      hour_hand.style.animationDuration = "3600s";
-      hour_hand.style.animationDelay = 61200 + "s";
-      // hour_hand.style.animationDelay = -hrs * 3600 + "s";
+      hour_hand.style.animationDuration = "86400s";
+      // hour_hand.style.animationDelay = 61200 + "s";
+      hour_hand.style.animationDelay = -hrs * 3600 + "s";
 
       // apply animation to second hand with correct duration and correct animation-delay.
     var minute_hand = document.getElementById("liquid2");
@@ -95,7 +98,7 @@
     minute_hand.style.animationDelay = -min * 60 + "s";
 
     var scale = document.getElementById("liquid3");
-      scale.style.animationDuration = "1s";
+      scale.style.animationDuration = "60s";
       scale.style.animationDelay = -sec + "s";
 
     // var hour_hand = document.getElementById("liquid1");
