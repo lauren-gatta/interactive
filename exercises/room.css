@@ -78,9 +78,9 @@ body {
   	height: 100px;
   	background: lightyellow;
   	border-radius: 50%;
-  	animation-name: sun_move;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+  	/*animation-name: move;*/
+    /*animation-iteration-count: infinite;*/
+    /*animation-timing-function: linear;*/
 }
 
 #window1 {

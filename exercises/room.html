@@ -9,21 +9,49 @@
   </head>
     <style>
     #sun {
-  width: 100px;
+    width: 100px;
     height: 100px;
-    background: lightyellow;
+    /*background: lightyellow;*/
     position: relative;
     border-radius: 50%;
-    animation-name: move;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    -webkit-animation-name: move;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     }
-    @keyframes move {
+    @-webkit-keyframes move {
         0% {
-          left: 0vw;
+          left: 40px; top: 40px; background: lightyellow;
         }
         100% {
-          left: 95vw;
+          left: 2000px; top: 400px; background: crimson;
+        }
+      }
+      #window1 {
+      animation-name: change;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      }
+      #window2 {
+      animation-name: change;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      }
+      #window3 {
+      animation-name: change;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      }
+      #window4 {
+      animation-name: change;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      }
+      @keyframes change {
+        0% {
+          background: mistyrose;
+        }
+        100% {
+          background: slateblue;
         }
       }
     </style>
@@ -50,6 +78,22 @@
     var move = document.getElementById("sun");
       move.style.animationDuration = "60s";
       move.style.animationDelay = -sec + "s";
+
+      var change = document.getElementById("window1");
+      change.style.animationDuration = "60s";
+      change.style.animationDelay = -sec + "s";
+
+      var change = document.getElementById("window2");
+      change.style.animationDuration = "60s";
+      change.style.animationDelay = -sec + "s";
+
+      var change = document.getElementById("window3");
+      change.style.animationDuration = "60s";
+      change.style.animationDelay = -sec + "s";
+
+      var change = document.getElementById("window4");
+      change.style.animationDuration = "60s";
+      change.style.animationDelay = -sec + "s";
 // Get clearInterval working
       setTimeout(stop, 5000);
   </script>
