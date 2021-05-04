@@ -1,33 +1,69 @@
 #circle {
-	height: 350px;
-  	width: 350px;
-  	display: table-cell;
-  	text-align: center;
-    padding: 20px;
-  	vertical-align: middle;
-  	border-radius: 50%;
-  	background-color: chartreuse;
-    border-style: solid;
-    border-width: 5px;
-    border-color: darkgreen;
+	height: 300px;
+  width: 325px;
+  display: flex;
+  position: relative;
+  text-align: center;
+  padding: 3%;
+  vertical-align: middle;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: chartreuse;
+  border-style: solid;
+  border-width: 5px;
+  border-color: darkgreen;
+  margin: auto;
+  z-index: 1;
+}
+
+#line {
+  height: 3000px;
+  width: 20px;
+  display: flex;
+  position: relative;
+  vertical-align: middle;
+  margin: auto;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  background-color: darkgreen;
+  z-index: 0;
 }
 
 .container {
-  max-width: 500px;
+  max-width: 1920px;
   margin: auto;
 }
 
+p {
+  font-family: menlo;
+  font-size: 100%;
+  padding: 8%;
+  /*display: inline-block;*/
+  display: flex;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  align-items: center;
+/*  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;*/
+}
+
 h1 {
-	font-family: helvetica;
+	font-family: menlo;
+  font-size: 50px;
 	color: chartreuse;
-  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-width: 2.5px;
   -webkit-text-stroke-color: darkgreen;
   /*margin: 0 auto;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
-	font-family: helvetica;
+	font-family: menlo;
 	color: forestgreen;
+  font-size: 100%;
   align-content: center;
   /*background-color: lightyellow;*/
   background-image: url(https://images-na.ssl-images-amazon.com/images/I/71jB%2BuEVnQL._AC_SL1001_.jpg);
