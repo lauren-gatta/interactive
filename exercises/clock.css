@@ -101,3 +101,75 @@ body {
 	top: 470px;
 	z-index: 0;
 }
+
+#bar {
+	width: 1000px;
+	height: 20px;
+	background: sienna;
+	position: absolute;
+	left: 0px;
+	top: 480px;
+}
+
+#stool1 {
+	width: 200px;
+	height: 50px;
+	background: maroon;
+	position: absolute;
+	border-radius: 20%;
+	left: 100px;
+	top: 540px;
+	z-index: 1;
+}
+
+#stool2 {
+	width: 200px;
+	height: 50px;
+	background: maroon;
+	position: absolute;
+	border-radius: 20%;
+	left: 430px;
+	top: 540px;
+	z-index: 1;
+}
+
+#stool3 {
+	width: 200px;
+	height: 50px;
+	background: maroon;
+	position: absolute;
+	border-radius: 20%;
+	left: 760px;
+	top: 540px;
+	z-index: 1;
+}
+
+#stoolbase1 {
+	width: 20px;
+	height: 400px;
+	background: slategrey;
+	position: absolute;
+	left: 190px;
+	top: 540px;
+	z-index: 0;
+}
+
+#stoolbase2 {
+	width: 20px;
+	height: 400px;
+	background: slategrey;
+	position: absolute;
+	left: 520px;
+	top: 540px;
+	z-index: 0;
+}
+
+#stoolbase3 {
+	width: 20px;
+	height: 400px;
+	background: slategrey;
+	position: absolute;
+	left: 850px;
+	top: 540px;
+	z-index: 0;
+}

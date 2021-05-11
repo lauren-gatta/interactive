@@ -53,6 +53,7 @@
     transform-origin: bottom;
     animation-duration: 3600s;
     }
+   
     @keyframes scale {
         0% {
           transform: scale(0.1);
@@ -78,6 +79,13 @@
   <div id="liquid1"></div>
   <div id="liquid2"></div>
   <div id="liquid3"></div>
+  <div id="bar"></div>
+  <div id="stool1"></div>
+  <div id="stool2"></div>
+  <div id="stool3"></div>
+  <div id="stoolbase1"></div>
+  <div id="stoolbase2"></div>
+  <div id="stoolbase3"></div>
 
   <br><br><br><br><br><br><br>
   <script>
@@ -100,7 +108,7 @@
     // var scale = document.getElementById("liquid3");
     //   scale.style.animationDuration = "60s";
     //   scale.style.animationDelay = -sec + "s";
-
+    if (hrs = 5) {
     var hour_hand = document.getElementById("liquid1");
       hour_hand.style.animationDuration = "86400s";
       hour_hand.style.animationDelay = -hrs * 3600 + "s";
@@ -113,7 +121,7 @@
     var scale = document.getElementById("liquid3");
       scale.style.animationDuration = "60s";
       scale.style.animationDelay = -sec + "s";
-
+  }
 
 // Get clearInterval working
       setTimeout(stop, 5000);
